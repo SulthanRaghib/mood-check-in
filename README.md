@@ -77,7 +77,9 @@ Mood Check-In menyediakan antarmuka yang aman dan mendukung secara emosional di 
 
 ### Installation
 
-\`\`\`bash
+```bash
+npm install
+```
 
 # Clone the repository
 
@@ -89,21 +91,22 @@ npm install
 
 # Run development server
 
+```bash
 npm run dev
-\`\`\`
+```
 
 Visit `http://localhost:3000` to see the app.
 
 ### Build for Production
 
-\`\`\`bash
+```bash
 npm run build
 npm start
-\`\`\`
+```
 
 ## 📁 Project Structure
 
-\`\`\`
+```
 mood-checkin/
 ├── app/
 │ ├── layout.tsx # Root layout dengan font dan metadata
@@ -120,7 +123,7 @@ mood-checkin/
 ├── lib/
 │ └── moods.ts # Data dan kutipan suasana hati
 └── README.md # File ini
-\`\`\`
+```
 
 ## 🧠 State Management
 
